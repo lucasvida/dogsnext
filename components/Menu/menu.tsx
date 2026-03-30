@@ -9,6 +9,9 @@ const Menu = () => {
         <li><Link href="/sobre">Sobre</Link></li>
         <li><Link href="/contato">Contato</Link></li>
         <li><Link href="/imc">Imc</Link></li>
+        <li><Link href="/produtos">Produtos</Link></li>
+        <li><Link href="/cursos">Cursos</Link></li>
+        <li><Link href="/acoes">Ações</Link></li>
       </ul>
     </div>
 
