@@ -1,0 +1,10 @@
+GET http://localhost:3000/api/perfil
+
+###
+
+POST http://localhost:3000/api/perfil?busca=gato
+Content-Type: application/json
+
+{
+    "nome": "gato"
+}
