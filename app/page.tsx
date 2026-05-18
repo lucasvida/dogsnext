@@ -1,11 +1,12 @@
 import Acesso from '@/components/Acesso/acesso';
 import ServerFetch from '@/components/ServerFetch/serverFetch';
-import ClientFetch from '@/components/ClientFetch/clientFetch';
+// import ClientFetch from '@/components/ClientFetch/clientFetch';
+import Link from 'next/link';
 
 export default async function HomePage() {
-  
+
   return (
-    <main>  
+    <main>
       <h1>HomePage</h1>
       <Acesso />
       <ServerFetch />
